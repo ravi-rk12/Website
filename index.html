@@ -1,53 +1,62 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Tuition Services</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>My Tuition Services</h1>
-    </header>
-    <main>
-      <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer math and physics tuition for students in grades 6 to 10. Our classes are designed to help students understand key concepts and improve their grades.</p>
-        <ul>
-          <li>One-on-one classes</li>
-          <li>Flexible schedules</li>
-          <li>Chapter-wise payment</li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contact-form">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-          <label for="grade">Grade:</label>
-          <select id="grade" name="grade" required>
-            <option value="" selected disabled>Select your grade</option>
-            <option value="6">6th</option>
-            <option value="7">7th</option>
-            <option value="8">8th</option>
-            <option value="9">9th</option>
-            <option value="10">10th</option>
-          </select>
-          <label for="subject">Subject:</label>
-          <select id="subject" name="subject" required>
-            <option value="" selected disabled>Select your subject</option>
-            <option value="math">Math</option>
-            <option value="physics">Physics</option>
-          </select>
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright &copy; 2023 My Tuition Services</p>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+<head>
+	<title>My Online Tutoring Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Online Tutoring Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#classes">Classes</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>About</h2>
+			<p>I am a qualified and experienced tutor offering online classes in Maths and Physics for students in classes 6-10. I focus on providing a comprehensive understanding of the subjects and tailor my teaching to the needs and learning style of each individual student. With my classes, students can choose the topic or chapter they want to learn and can opt for chapter-wise payment to build trust.</p>
+		</section>
+
+		<section id="classes">
+			<h2>Classes</h2>
+			<p>I offer online classes on the 2nd and 4th Saturday of every month, and every Sunday. The timings can be determined based on the student's preferences, as well as the formation of similar groups based on class and topic. I can also teach face-to-face if the student prefers.</p>
+		</section>
+
+		<section id="pricing">
+			<h2>Pricing</h2>
+			<p>My classes can be paid for chapter-wise, so students can try a class and see if they find it useful before committing to more. The cost will be determined based on the chapter and number of hours required for teaching. Please contact me for more details.</p>
+		</section>
+
+		<section id="contact">
+			<h2>Contact</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>Copyright © 2023 - My Online Tutoring Website</p>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
 </html>
